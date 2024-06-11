@@ -1,0 +1,13 @@
+[package]
+name = "frise"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.7", features = ["derive"] }
+comfy-table = "7.1.1"
+crossterm = "0.27.0"
+env_logger = "0.11.3"
+inquire = "0.7.5"
+log = "0.4.21"
+regex = "1.10.4"
